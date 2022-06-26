@@ -18,7 +18,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
   <Router>
-    <div><Navbar/></div>
+    <div><Navbar name='Home'/></div>
     <div><Main /></div>
    <div><Footer/></div>
 </Router>         
