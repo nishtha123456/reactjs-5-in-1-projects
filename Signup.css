@@ -1,0 +1,42 @@
+
+
+.Signup  {
+    width: 600px;
+    height:auto;
+    padding:10px;
+    margin:30px 10px 10px 100px;
+    border:none;
+    float:left
+
+
+     }
+
+form {
+    margin: 00px;
+    padding: 00px;
+    height: auto;
+    background-color: aquamarine;
+    border:2px solid blue;
+   text-align: center;
+    }
+  input{
+    left: 80px; ;
+    padding-left: 20px;
+    
+  }
+  
+    .Signup-header {
+    text-align: center;
+        
+      width: 600px;
+        height: 400px;
+        padding:00px;
+        margin:00 20px 60px 100px;
+        border:none;
+        
+        display: flex;
+        flex-direction: column;
+    
+
+         }
+   

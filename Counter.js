@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './login.css'
 //import ReactDOM from "react-dom/client";
 //import $ from 'jquery'
 export default function Counter() {
@@ -26,7 +27,7 @@ export default function Counter() {
 
 
   return (
-  <><div>
+  <><div   className="counter">
   <h1><u>COUNTER PROJECT USING USEEFFECT HOOK</u> </h1>
   <form>
   <div class="mb-3">

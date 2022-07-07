@@ -1,0 +1,41 @@
+.counter{height: 200px;}
+.login{text-align: center;
+        
+    width:auto;
+      height: 100px;
+      padding:10px;
+      margin:30px 10px 10px 100px;
+      border:1px solid black;
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+  
+
+       }
+       .login-header {
+        text-align: center;
+            
+          width: 600px;
+            height: 400px;
+            padding:10px;
+            margin:00 20px 60px 350px;
+            border:none;
+            
+            display: flex;
+            flex-direction: column;
+        
+    
+             }
+       
+       form{
+        margin-top: 00px;
+        padding: 60px;
+        height: 400px;
+    font-weight: bold;}
+    input{
+        font-weight: bold;
+        font-size: medium;
+        background-color:white;
+
+    }
+ 

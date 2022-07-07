@@ -21,12 +21,14 @@ export default function Textutill() {
       
     <>
     <div>
+
+      <h1> <u> TextUtill project</u></h1>
     <h1>Enter the text :-</h1>
     
 
   <textarea  classname='text1' value={text} onChange={handleonchange} ></textarea>
   </div>
   <div >
-  <button  classname='button' onClick={changetext}>Convert the text in upercase</button>
+  <button  width="auto" classname='button' onClick={changetext}>Convert the text in upercase</button>
 </div></>  )
 }
