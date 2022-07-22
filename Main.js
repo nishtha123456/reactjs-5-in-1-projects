@@ -5,12 +5,13 @@ import About from './About'
 import Textutill from './Textutill'
 import Todolist from './Todolist'
 import Counter from './Counter'
-//import Signup from './Signup'
+import ReadFile from './ReadFile'
 import './main.css'
 import Timer from './Timer'
 import Nomatch from './Nomatch'
 import Increment from './Increment'
 //import {auth} from './Login'
+import ReduxTodolist from './ReduxTodolist'
 
 export default function Main() {
   return (<>
@@ -26,6 +27,8 @@ export default function Main() {
   <Route exact path="Counter" element={<Counter/>} />
   <Route exact path="Timer" element={<Timer/>} />
   <Route exact path="Increment" element={<Increment/>} />
+  <Route exact path="ReduxTodolist" element={<ReduxTodolist/>} />
+  <Route exact path="ReadFile" element={<ReadFile/>} />
   <Route path="*" element={<Nomatch/>} />
 
 
@@ -42,6 +45,8 @@ export default function Main() {
         <li><Link to="Counter" ><b>Counter</b> </Link></li>
         <li><Link to="Todolist"> <b>Todolist </b> </Link></li>
         <li><Link to="Increment"> <b>Incremet using Redux  </b> </Link></li>
+        <li><Link to="ReduxTodolist"> <b>Todolist using Redux  </b> </Link></li>
+        <li> <Link to="ReadFile"><b>NODE JS EXAMPLE </b></Link></li>
    </ul>
     
     </div>

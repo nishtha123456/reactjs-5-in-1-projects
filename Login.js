@@ -4,9 +4,13 @@ import { useState } from 'react';
 import {useNavigate} from 'react-router-dom'
 import './login.css';
 import {email1 } from './Signup'
-let auth=0;
+import { loginHandler } from './Actions';
+import { useSelector,useDispatch } from 'react-redux';
+
 
 export default function Login() { 
+  const loginAuth=useSelector((state)=>state.changeNumber);
+  const Dispatch=useDispatch();
   const Navigate=useNavigate();
       const [email, setEmail] = useState('');
       const [password, setPassword] = useState('');
@@ -25,13 +29,14 @@ const handlePasswordChange = (e) => {
      const handleSubmit = (e) =>  {
       if (email===email1 || email==='asha@yahoo.com') {
         
-        alert("login succesfully" +email1);
-        auth=1;
+        alert("login succesfully" +email1 +"auth="+loginAuth);
+        Dispatch(loginHandler());
+        
       Navigate('./Main');
 
        
       } else {
-        auth=0;
+        
             alert("Log in failed" +email1);
             
       }
@@ -64,4 +69,3 @@ const handlePasswordChange = (e) => {
     </>
   )
 }
-export  {auth};

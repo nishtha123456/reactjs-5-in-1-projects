@@ -25,7 +25,7 @@ export default function Todolist() {
       <h2>  <label ><b>  Enter TodoName-</b></label>
     
 
-    <textarea  classname='text1' value={text} onChange={handleonchange} ></textarea></h2>
+    <textarea  classname='text1' placeholder='Enter your todo here' value={text} onChange={handleonchange} ></textarea></h2>
     <button onClick={addTodo}>Add Todo</button>
     {todos.map((todo, index) => {
         return <p key={index}>{todo}</p>;
