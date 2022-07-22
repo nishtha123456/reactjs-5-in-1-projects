@@ -1,5 +1,11 @@
 # reactjs-5-in-1-projects
+**********************************************
+FOR BACK END  CORS IS MIDDLEWARE AXIOS FOR GET REQUEST
 
+install npm i express
+install npm i cors
+install npm i axios
+************************************************
 REACT REDUCERS
 
 SRC/COMPONENTS/ACTIONS/INDEX.JS
