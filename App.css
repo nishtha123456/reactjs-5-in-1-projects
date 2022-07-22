@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .container {
 
 	width:2000px;
@@ -29,6 +30,7 @@ a{display:block;
 }
 nav{background-color: green;
   font-weight: bold;
+  
 height: 50px;
 width: auto;}
 
