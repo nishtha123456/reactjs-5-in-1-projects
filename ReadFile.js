@@ -39,13 +39,14 @@ constructor(){
     <div>
       <h1>example using how to connect react api to express</h1>
       
- <h2>customers </h2>
+ <h2 style={{"textAlign":'center'}} >   <u>       customers  </u>    </h2>
+ <ul style={{"listStyle":'none' ,"textAlign":'center',"margin":'auto',"padding":'10'}}>
  <h3>
-  <ul>
-    {this.state.customers.map(customer=>    <li key={customer.id}><p>{customer.id}  {customer.firstname}  {customer.lastname}<br></br></p></li>)}
-  </ul>
- </h3>
 
+    {this.state.customers.map(customer=> <li key={customer.id}   >{customer.id} <br/><hr/> {customer.firstname}<br/> <hr/> {customer.lastname}<hr/></li>)}
+  
+ </h3>
+</ul>
  
     </div>
     
