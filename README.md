@@ -1,5 +1,18 @@
 # reactjs-5-in-1-projects
-**********************************************
+******************************************************
+To run node file
+open new terminal and then type following on powershell and then press enter
+
+node "file path of node file"
+**********************************************************
+nodemon is also use for run node file
+type nodemon "filepath"
+to run node file
+*************************
+
+to terminate running batch press ctrl + c 
+
+******************************************************
 FOR BACK END  CORS IS MIDDLEWARE AXIOS FOR GET REQUEST
 
 install npm i express
