@@ -24,13 +24,14 @@ constructor(){
     }).then(res =>{console.log("customer fetched:",res.data.customers)
     this.setState({customers:res.data.customers})
   })
-    
-    //.then(json=>this.setSt({customer=res.data.customers}))       
-    // this.setState({use})
-    
-         
-   
+     
   }
+
+  
+
+
+
+
   render()
 {  return (
   
@@ -40,15 +41,14 @@ constructor(){
       <h1>example using how to connect react api to express</h1>
       
  <h2 style={{"textAlign":'center'}} >   <u>       customers  </u>    </h2>
- <ul style={{"listStyle":'none' ,"textAlign":'center',"margin":'auto',"padding":'10'}}>
- <h3>
+  <h3>
 
-    {this.state.customers.map(customer=> <li key={customer.id}   >{customer.id} <br/><hr/> {customer.firstname}<br/> <hr/> {customer.lastname}<hr/></li>)}
+    {this.state.customers.map(customer=> <div key={customer.id} >{customer.id}  {customer.firstname}  {customer.lastname}<hr/></div>)}
   
  </h3>
-</ul>
+
  
-    </div>
+</div>
     
   )
 }
